@@ -6,14 +6,14 @@
 </head>
 <body id="gradient">
     <h1>Background Generator</h1>
-    <input class="color1" type="color" name="color1" value="#32585d">
-    <input class="color2" type="color" name="color2" value="#21ba40">
-    <input class="color3" type="color" name="color2" value="#d03535">
+    <input class="color1" onclick="showInTextbox()" id="gradient1" type="color" name="color1" value="#32585d">
+    <input class="color2" onclick="showInTextbox()" id="gradient2" type="color" name="color2" value="#21ba40">
+    <input class="color3" onclick="showInTextbox()" id="gradient3" type="color" name="color2" value="#d03535">
+    <span style="margin-left: 10px;"><img id="copyImg" onclick="copyToClickboard()" src="images/copy.png" width="25" height="25"/></span>
     <h2>Current CSS Background</h2>
     <h3></h3>
 
 
-    
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
